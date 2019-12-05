@@ -21,7 +21,7 @@ public class BoardGameManager : MonoBehaviour{
     void Update(){
         if(isGameOver()){
             TextMeshPro monitor = GameObject.Find("MonitorText").GetComponent<TextMeshPro>();
-            monitor.SetText("Congratulations! You solved the puzzle\n\nTap the A button to go to the next experience.");
+            monitor.SetText("Congratulations! You solved the puzzle\n\nYou can remove the headset now or tap the A button to go back to the office.");
             playWinSound();
             if(OVRInput.GetDown(OVRInput.Button.One)){
                 // Change Scene Name Here
