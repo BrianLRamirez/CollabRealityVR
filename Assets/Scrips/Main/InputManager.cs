@@ -11,7 +11,7 @@ public class InputManager : MonoBehaviour{
     void Update(){
         if(OVRInput.GetDown(OVRInput.Button.One)){
             // Change Scene Name Here
-            SceneManager.LoadScene("Pablo");
+            SceneManager.LoadScene("Robson");
         }
     }
 }
